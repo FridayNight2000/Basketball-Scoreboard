@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <title>Basketball Scoreboard</title>
+  </head>
+  <body>
+    <div id="container">
+      <div class="team">
+        <div class="team-title">HOME</div>
+        <div class="team-score timer-font" id="home-score"></div>
+        <div class="point">
+          <button class="plus-one-point timer-font" onclick="homeAddOne()">
+            +1
+          </button>
+          <button class="plus-two-point timer-font" onclick="homeAddTwo()">
+            +2
+          </button>
+          <button class="plus-three-point timer-font" onclick="homeAddThree()">
+            +3
+          </button>
+        </div>
+      </div>
+      <div class="team">
+        <div class="team-title">GUEST</div>
+        <div class="team-score timer-font" id="guest-score"></div>
+        <div class="point">
+          <button class="plus-one-point timer-font" onclick="guestAddOne()">
+            +1
+          </button>
+          <button class="plus-two-point timer-font" onclick="guestAddTwo()">
+            +2
+          </button>
+          <button class="plus-three-point timer-font" onclick="guestAddThree()">
+            +3
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
