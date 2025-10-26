@@ -34,7 +34,7 @@ body {
 .team-score {
   height: 120px;
   background: #080001;
-  color: #f94f6d;
+  color: red;
   padding: 0px 19px;
   font-size: 90px;
   border-radius: 5px;
